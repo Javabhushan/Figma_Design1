@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+	
+
+/* Header Section Starts	 */
+	.btn-outer{
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		left: 0 !important;
+		justify-content: center !important;
+		background: #fff;
+		padding: 5px 0;
+
+	}
+
+	.whatsapp , .call{
+
+		padding: 7px 15px;
+		font-size: 14px;
+	}
+
+
+/* 	Header Section Ends */
+
+
+/* Banner Section Starts */
+
+.banner-content h1{
+
+	font-size: 28px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 35px;
+}
+
+.banner-content p,.banner-content ul li{
+
+	font-size: 16px;
+}
+
+
+.banner-contentBtn{
+
+	flex-direction: column;
+}
+
+.banner-contentBtn button{
+
+	width: 100%;
+}
+
+.bannerForm{
+
+	padding: 20px;
+}
+
+/* Banner Section Ends */
+
+
+
+/* Key Highlights Section Starts */
+
+.highlights h2{
+
+   font-size: 28px;
+ 
+   
+}
+
+.high-items h4{
+  
+  font-size: 18px;
+  font-weight: 600;
+
+}
+
+/* Key Highlights Section Ends */
+
+
+
+/* Top career options in Digital Marketing  Section Starts */
+
+#career h2{
+
+	 font-size: 30px;
+}
+
+#career p{
+
+	font-size: 15px;
+	line-height: 20px;
+}
+
+#career-container p{
+
+	line-height: 22px;
+}
+
+
+/* Top career options in Digital Marketing  Section Ends */
+
+
+/* Certified Section Starts */
+
+#certi h2{
+
+	font-size: 22px;
+	text-align: center;
+}
+
+#certi p{
+
+	font-size: 15px;
+	text-align: center;
+}
+
+
+#certi-content h4{
+
+	font-size: 18px;
+}
+
+#certi-content p{
+
+	font-size: 14px;
+	text-align: justify;
+}
+
+/*.cer-img > div{
+
+    width: 100%;
+	justify-content: center;
+	padding: 20px;
+}*/
+
+.cer-img img{
+
+	width: 100% !important;
+	padding: 0 !important;
+	order: 1;
+}
+
+#certi-content{
+
+	order:2 !important;
+}
+
+#certi-btn{
+
+	display: table;
+	margin: auto;
+}
+
+/* Certified Section Ends */
+
+
+
+/*  Curriculum of Our Digital Marketing Section Starts */
+
+
+#curry h2{
+
+	font-size: 30px;
+	line-height: 35px;
+	margin-bottom: 20px;
+}
+
+#curry h2 br{
+
+	display: none;
+}
+
+.tabItem ul li {
+
+	font-size: 14px;
+}
+
+/*  Curriculum of Our Digital Marketing Section Ends */
+
+
+
+
+/* Why Learn Section Starts */
+
+#why h3{
+
+	font-size: 30px;
+	text-align: center;
+	line-height: 35px;
+}
+
+
+#why p{
+
+	text-align: justify;
+	font-size: 15px;
+}
+
+#why-content h4{
+
+	font-size: 18px;
+	font-weight: 600;
+}
+
+
+/* Why Learn Section Ends */
+
+
+
+/* What Our Students Are Saying! Section Starts */
+
+
+#stud h2{
+
+	font-size: 25px;
+	line-height: 35px;
+	margin-top: 25px;
+}
+
+
+#stud p{
+
+	font-size: 14px;
+
+}
+
+
+#stud-content h4{
+
+	font-size: 18px;
+}
+
+#stud-content > p{
+
+
+		padding: 0 20px;
+		text-align: justify !important;
+}
+
+
+
+
+/* What Our Students Are Saying! Section Ends */
+
+
+
+/* Top Companies Hiring Digital Marketing in India Section Starts */
+
+
+
+.slider-img{
+
+	width: 100%;
+}
+
+.slider-img img{
+
+	width: 100%;
+}
+
+
+/* Top Companies Hiring Digital Marketing in India Section Ends */
+
+
+
+/*  FAQ Accordion Section Starts */
+
+
+#faq h2{
+
+	font-size: 30px;
+	line-height: 35px;
+
+}
+
+
+#faq h2 br{
+
+	display: none;
+}
+
+#faq p{
+
+	font-size: 16px;
+	text-align: justify;
+}
+
+
+/*  FAQ Accordion Section Ends */
+
+
+
+/* Footer Section Starts */
+
+#myfoot .w-52{
+
+	width: 100%;
+}
+
+
+.footer-bottom{
+
+	padding: 0 0 50px 0;
+}
+
+/* Footer Section Ends */
+}
+
+
+
+
+
+
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1170px;
+    }
+}
